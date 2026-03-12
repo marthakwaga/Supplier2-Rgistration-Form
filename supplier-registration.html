@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="supplier-registration.css">
+</head>
+<body>
+<div class="container">
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="profile-picture">
+         <img src="stockshop.jpg" alt="Nyondo stock" width="100%">          
+                <h3> Nyondo Stock</h3>
+        </div>
+
+         <div class="menu">
+        <h2>Explore More</h2>
+
+        <a href="#" class="menu-btn">Home</a>
+        <a href="#" class="menu-btn">Suppliers</a>
+        <a href="#" class="menu-btn">Products</a>
+        <a href="#" class="menu-btn">Orders</a>
+        <a href="#" class="menu-btn">Contact Us</a>
+    </div>
+            
+    </div>
+    <!-- CONTENT -->
+<br>
+     <div class="content">
+ 
+            <!-- <h2>Partner with us. Supply with confidence.</h2> -->
+        
+            <form action="" method="get">
+
+                <!-- Supplier Details -->
+                <h1>1. Supplier Details</h1>
+                <section>
+                        
+                        <div>
+                            <label for="BusinessName">Business Name:</label>
+                            <input type="text" name="" id="BusinessName" placeholder=" Enter business name here">
+                        </div>
+                        <div>
+                            <label for="">TIN Number:</label>
+                            <input type="text" name="" id="TINnumber" placeholder=" Enter TIN here">
+                        </div>
+                </section>
+
+                <!-- Contact Information -->
+
+                 <h2>2. Contact Information</h2>
+                <section>
+                        <div>
+                            <label for="Contactperson">Contact Person:</label>
+                            <input type="text" name="" id="SalesDate" placeholder=" Enter name here">
+                        </div>
+                        <div>
+                            <label for="phonenumber">Phone Number:</label>
+                            <input type="tel" name="" id="phonenumber" placeholder="+2567xxxxxxxx">
+                        </div>
+                        <div>
+                            <label for="Email">Email:</label>
+                            <input type="email" name="" id="Email" placeholder="youremail@example.com">
+                        </div>
+                </section>
+
+                <!-- Address -->
+
+                 <h2>3. Address</h2>
+                <section>
+                        <div>
+                            <label for="PhysicalAddress">Physical Address:</label>
+                            <input type="text" name="" id="PhysicalAddress" placeholder=" Enter address here">
+                        </div>
+                        <div>
+                            <label for="City">City:</label>
+                            <input type="text" name="" id="City" placeholder="Mbale">
+                        </div>
+                        <div>
+                            <label for="Country">Country:</label>
+                            <input type="text" name="" id="Country" placeholder="Uganda">
+                        </div>
+                </section>
+
+                <!-- Business Details -->
+
+                 <h2>4. Business Details</h2>
+                <section>
+                        <div>
+                            <label for="choices">Nature of Business:</label>
+                             <select name="choices" id="choices" onchange="checkOther(this);">
+                                <option value="" disabled selected>Select Business</option>
+                                <option value="af">Agriculture and Farming</option>
+                                <option value="m">Manufacturing</option>
+                                <option value="tl">Transport and Logistics</option>
+                                <option value="eh">Electrical and Hardware Supplies</option>
+                                <option value="ie">Import and Export</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id="otherInputDiv" style="display: none;">
+                            <label for="otherOption">Specify other:</label>
+                            <input type="text" name="otherOption" id="otherOption">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="Products Supplied">Products Supplied:</label>
+                            <input type="text" name="" id="Products Supplied">
+                        </div>
+                       
+                </section>
+
+
+                <!-- Payment Details -->
+
+                 <h2>5. Payment Details</h2>
+                <section>
+                        <div>
+                            <label for="Bank">Bank:</label>
+                             <select name="choices" id="choices" onchange="checkother(this);">
+                                <option value="" disabled selected>Select a Bank</option>
+                                <option value="option 1">ABSA</option>
+                                <option value="option 2">DFCU</option>
+                                <option value="option 3">Stanbic Bank</option>
+                                <option value="sm">Centenary Bank</option>
+                                <option value="sm">Standard Chattered</option>
+                            </select>
+                            </div>
+                        <div>
+                            <label for="Account Number">Account Number:</label>
+                            <input type="text" name="" id="Account Number">
+                        </div>
+                       
+                </section>
+                 <!-- final bit -->
+                    <br>
+                            <section id="btn-section">
+                                <button type="reset">Cancel</button>
+                                <button type="submit">Submit</button>
+
+
+
+
+
+</div>
+</body>
+</html>
